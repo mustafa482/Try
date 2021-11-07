@@ -1,0 +1,16 @@
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\SecondLesson.exe
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\SecondLesson.deps.json
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\SecondLesson.runtimeconfig.json
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\SecondLesson.runtimeconfig.dev.json
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\SecondLesson.dll
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\ref\SecondLesson.dll
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\bin\Debug\net5.0\SecondLesson.pdb
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.csproj.AssemblyReference.cache
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.AssemblyInfoInputs.cache
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.AssemblyInfo.cs
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.csproj.CoreCompileInputs.cache
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.dll
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\ref\SecondLesson.dll
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.pdb
+D:\Yedek\N.R(C#)\SecondLesson\SecondLesson\obj\Debug\net5.0\SecondLesson.genruntimeconfig.cache
