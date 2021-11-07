@@ -6,11 +6,20 @@ namespace SecondLesson
     {
         static void Main(string[] args)
         {
-            byte var1 = 45;
-            byte var2;
-            var2 = 36;
+            //string a = Console.ReadLine();
+            //string b = Console.ReadLine();
+            //string c = Console.ReadLine();
+            //Console.WriteLine(c + b + a);
 
-            int sum = var1 + var2;
+            //Console.Write("Adinizi daxil edin: ");
+            //string ad = Console.ReadLine();
+            //Console.Write("Soyadinizi daxil edin: ");
+            //string soyad = Console.ReadLine();
+            //Console.WriteLine(ad.ToUpper() + " " + soyad.ToUpper());
+
+            int r = int.Parse(Console.ReadLine());
+            Console.WriteLine(Math.PI * r*r);
+
 
 
             Console.ReadLine();
