@@ -17,9 +17,9 @@ namespace SecondLesson
             //string soyad = Console.ReadLine();
             //Console.WriteLine(ad.ToUpper() + " " + soyad.ToUpper());
 
-            int r = int.Parse(Console.ReadLine());
-            Console.WriteLine(Math.PI * r*r);
-
+            //int r = int.Parse(Console.ReadLine());
+            //Console.WriteLine(Math.PI * r*r);
+            
 
 
             Console.ReadLine();
