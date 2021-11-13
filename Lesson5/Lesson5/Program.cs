@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections;
 
 namespace Lesson5
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
-
+            int[] array = { 1, 2, 3, 4, 5, 6 };
+            ArrayList list = CreateArray(30,"My Lesson",DateTime.Now);
+            PrintArray(list);
         }
         static void Main3()
         {
@@ -18,10 +21,10 @@ namespace Lesson5
                 string result = Console.ReadLine();
                 isContinue = result.ToLower() == "he";
 
-                Console.WriteLine(isContinue ? "Siz davam edirsiz": "Siz cixdiniz");
+                Console.WriteLine(isContinue ? "Siz davam edirsiz" : "Siz cixdiniz");
             } while (isContinue);
-
-            static void Main2()
+        }
+        static void Main2()
             {
                 while (true)
                 {
@@ -41,7 +44,7 @@ namespace Lesson5
                 }
             }
             
-            static void Main1()
+        static void Main1()
             {
                 for (int i = 1; i <= 100; i++)
                 {
@@ -56,9 +59,30 @@ namespace Lesson5
                     Console.WriteLine(i);
                 }
             }
+        static ArrayList CreateArray(int num,string text,DateTime date)
+        {
+            ArrayList list = new ArrayList();
+
+            for (int i = 0; i < num; i++)
+            {
+                list.Add(i);
+            }
+            list.Add(100);
+            list.Add(text);
+            list.Add(date);
+            
+            return list;
+        }
+        static void PrintArray(ArrayList list)
+        {
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+        }
             
            
-            Console.ReadLine();
-        }
+            
+        
     }
 }
