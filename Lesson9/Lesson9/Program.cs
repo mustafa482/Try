@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Helper;
+using System;
 
 namespace Lesson9
 {
@@ -7,6 +8,12 @@ namespace Lesson9
         static void Main(string[] args)
         {
             
+            Student s2 = new Student();
+
+            
+            
+            
+             
         }
     }
 }

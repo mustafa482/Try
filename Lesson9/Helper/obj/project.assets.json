@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "Helper/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Helper.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Helper.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "Helper/1.0.0": {
-      "type": "project",
-      "path": "../Helper/Helper.csproj",
-      "msbuildProject": "../Helper/Helper.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "Helper >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\Mustafa\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Yedek\\N.R(C#)\\Lesson9\\Lesson9\\Lesson9.csproj",
-      "projectName": "Lesson9",
-      "projectPath": "D:\\Yedek\\N.R(C#)\\Lesson9\\Lesson9\\Lesson9.csproj",
+      "projectUniqueName": "D:\\Yedek\\N.R(C#)\\Lesson9\\Helper\\Helper.csproj",
+      "projectName": "Helper",
+      "projectPath": "D:\\Yedek\\N.R(C#)\\Lesson9\\Helper\\Helper.csproj",
       "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-      "outputPath": "D:\\Yedek\\N.R(C#)\\Lesson9\\Lesson9\\obj\\",
+      "outputPath": "D:\\Yedek\\N.R(C#)\\Lesson9\\Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,11 +38,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "D:\\Yedek\\N.R(C#)\\Lesson9\\Helper\\Helper.csproj": {
-              "projectPath": "D:\\Yedek\\N.R(C#)\\Lesson9\\Helper\\Helper.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
