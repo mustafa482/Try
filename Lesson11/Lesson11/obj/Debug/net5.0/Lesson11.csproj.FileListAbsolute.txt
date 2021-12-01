@@ -14,3 +14,5 @@ D:\Yedek\N.R(C#)\Lesson11\Lesson11\obj\Debug\net5.0\Lesson11.dll
 D:\Yedek\N.R(C#)\Lesson11\Lesson11\obj\Debug\net5.0\ref\Lesson11.dll
 D:\Yedek\N.R(C#)\Lesson11\Lesson11\obj\Debug\net5.0\Lesson11.pdb
 D:\Yedek\N.R(C#)\Lesson11\Lesson11\obj\Debug\net5.0\Lesson11.genruntimeconfig.cache
+D:\Yedek\N.R(C#)\Lesson11\Lesson11\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Yedek\N.R(C#)\Lesson11\Lesson11\obj\Debug\net5.0\Lesson11.csproj.CopyComplete

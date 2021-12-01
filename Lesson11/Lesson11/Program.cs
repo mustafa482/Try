@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -8,7 +9,7 @@ namespace Lesson11
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main1(string[] args)
         {
             bool isCountinue;
             const string ApiUrl = "https://catfact.ninja/fact";
@@ -19,7 +20,10 @@ namespace Lesson11
             do
             {
                 var result = await client.GetStringAsync(ApiUrl);
-                Console.WriteLine(result);
+
+                var catfact = JsonConvert.DeserializeObject<CatFact>(result);
+
+                Console.WriteLine(catfact.Fact);
 
                 Console.WriteLine();
 
@@ -29,5 +33,59 @@ namespace Lesson11
             }
             while (isCountinue);
         }
+       public static async Task Main(string[] args)
+        {
+            var user = new User()
+            {
+                Name = "Mustafa",
+                isStudent = true,
+                Age = 19,
+                SuccessYears = new int[] { 1, 3, 5 },
+                Parent = new Person()
+                {
+                    Name = "Vidadi",
+                    DateofBirth = new DateTime(1977, 1, 5)
+                },
+                Children = new Person[]
+                {
+                    new Person()
+                    {
+                        Name = "A",
+                        DateofBirth = DateTime.Parse("2027-10-22")
+                    },
+                    new Person()
+                    {
+                        Name = "B",
+                        DateofBirth = DateTime.Parse("2028-1-2")
+                    }
+                }
+            
+            };
+            var JsonString = JsonConvert.SerializeObject(user, Formatting.Indented);
+
+            Console.WriteLine(JsonString);
+
+            Console.ReadKey();
+        }
+    }
+    public class User
+    {
+        public string Name { get; set; }
+        public bool isStudent { get; set; }
+        public int Age { get; set; }
+        public Person Parent { get; set; }
+        public Person[] Children { get; set; }
+        public int[] SuccessYears { get; set; }
+    }
+    public class Person 
+    {
+        public string Name { get; set; }
+        public DateTime DateofBirth { get; set; }
+    }
+
+    public class CatFact
+    {
+        public string Fact { get; set; }
+        public int Length { get; set; }
     }
 }
