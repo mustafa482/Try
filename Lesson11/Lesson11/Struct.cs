@@ -30,13 +30,16 @@ namespace Lesson11
                 Name = "Samir",
                 Age = 20
             };
+            User1 user0 = default;//Structlara new demeden de bele default deger vermek olur ama classlarda mutleq instanse ni yaratmalisan.Structda inheritance yoxdur.Struct Value.Type dan toreyir.O gedir Object den toreyir.Ana tip Objectdir.struct single unite i ifade elemek ucun istifade olunur.(int,boolean,double,decimal)vs.
+            user0.Age = 21;
+            user0.Name = "Filankes";
             Console.WriteLine($"user1 name is {user1.Name}");
             var user2 = user1;
             user2.Name = "Ehmed";
             Console.WriteLine($"user1 name is {user1.Name}");
             Console.WriteLine($"user2 name is {user2.Name}");
         }
-        public static void Main()
+        public static void Main5()
         {
             var user1 = new user
             {

@@ -9,7 +9,7 @@ namespace Lesson11
 {
     class Program
     {
-        static async Task Main1(string[] args)
+        static void Main(string[] args)
         {
             bool isCountinue;
             const string ApiUrl = "https://catfact.ninja/fact";
@@ -19,7 +19,7 @@ namespace Lesson11
 
             do
             {
-                var result = await client.GetStringAsync(ApiUrl);
+                var result =  client.GetStringAsync(ApiUrl).Result;
 
                 var catfact = JsonConvert.DeserializeObject<CatFact>(result);
 
@@ -33,7 +33,7 @@ namespace Lesson11
             }
             while (isCountinue);
         }
-       public static async Task Main(string[] args)
+       public static async Task Main1(string[] args)
         {
             var user = new User()
             {
