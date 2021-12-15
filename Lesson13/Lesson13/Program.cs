@@ -1,10 +1,67 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
+using System.Net.Http;
 
 namespace Lesson13
 {
     class Program
     {
-        static void Main(string[] args)
+        public class Country
+        {
+            public string country_id { get; set; }
+            public double probability { get; set; }
+        }
+        public class JsonResult
+        {
+            public string name { get; set; }
+            public Country[] country { get; set; }
+        }
+        static void Main()
+        {
+            var name = Console.ReadLine();
+            var apiUrl = $"https://api.nationalize.io/?name={name}";
+
+            var httpClient = new HttpClient();
+            var StringResult = httpClient.GetStringAsync(apiUrl).Result;
+
+            var result = JsonConvert.DeserializeObject<JsonResult>(StringResult);
+
+            Console.WriteLine($"Name is {result.name}");
+
+            foreach (var item in result.country)
+            {
+                Console.WriteLine($"CountryName is {item.country_id}, probability is {item.probability}");
+            }
+
+            Console.ReadKey();
+
+        }
+        static void Main3()
+        {
+            var smsService = new SMSService1();
+
+            var userManager = new UserManager(smsService);
+            userManager.RegisterNewUser(new User
+            {
+                id = 1,
+                Name = "Mustafa"
+            });
+
+            userManager.RegisterNewUser(new User
+            {
+                id = 2,
+                Name = "Ilkin"
+            });
+
+            userManager.EditUser(new User
+            {
+                id = 1,
+                Name = "Samir"
+            });
+            Console.ReadKey();
+        }
+
+        static void Main2(string[] args)
         {
             Dog dog = new Dog();
         }

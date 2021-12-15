@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SppOZM79EY7U00SDmQorBbaCzhGFf1XM9X20bbSs6fj+aXFBRVLEYln94gcy6vyCtbybGiMU8h2B9G47cpfrSA==",
+  "dgSpecHash": "Ceuj7zsPB3PY8Fe0Sev4EaMxoou21IopRI44JVqEOEsNNfYIBXzsdvTOl7sYJyehRH60R3ul9kpZoXSi85VLLQ==",
   "success": true,
   "projectFilePath": "D:\\Yedek\\N.R(C#)\\Lesson13\\Lesson13\\Lesson13.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mustafa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
