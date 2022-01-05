@@ -1,0 +1,16 @@
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\Lesson16.exe
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\Lesson16.deps.json
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\Lesson16.runtimeconfig.json
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\Lesson16.runtimeconfig.dev.json
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\Lesson16.dll
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\ref\Lesson16.dll
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\bin\Debug\net5.0\Lesson16.pdb
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.csproj.AssemblyReference.cache
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.AssemblyInfoInputs.cache
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.AssemblyInfo.cs
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.csproj.CoreCompileInputs.cache
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.dll
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\ref\Lesson16.dll
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.pdb
+D:\Yedek\N.R(C#)\Lesson16\Lesson16\obj\Debug\net5.0\Lesson16.genruntimeconfig.cache

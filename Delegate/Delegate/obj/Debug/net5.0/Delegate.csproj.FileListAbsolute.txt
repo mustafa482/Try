@@ -1,0 +1,16 @@
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\Delegate.exe
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\Delegate.deps.json
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.json
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.dev.json
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\Delegate.dll
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\ref\Delegate.dll
+D:\Yedek\N.R(C#)\Delegate\Delegate\bin\Debug\net5.0\Delegate.pdb
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.csproj.AssemblyReference.cache
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfoInputs.cache
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfo.cs
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.csproj.CoreCompileInputs.cache
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.dll
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\ref\Delegate.dll
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.pdb
+D:\Yedek\N.R(C#)\Delegate\Delegate\obj\Debug\net5.0\Delegate.genruntimeconfig.cache
