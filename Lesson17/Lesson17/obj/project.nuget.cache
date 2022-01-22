@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2580jhJ80LdHttkDsjIgxEsA1RbrWYCj1+KPGc1D3HMbFJYUi1QdSgACaF7wh3Xp9i5bMjPDtWRhGOKIE9Bxzg==",
+  "dgSpecHash": "DUrSE8dvuU36umC+Diqk5yJTqGJXQ35w4p2ik5vDdfo9puFIUSqVM653qFO1eDeigqtevQqMX6Wt8jKjbVLSPg==",
   "success": true,
   "projectFilePath": "D:\\Yedek\\N.R(C#)\\Lesson17\\Lesson17\\Lesson17.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mustafa\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
